@@ -30,13 +30,13 @@ nav .logo-name span {
     padding-right: 1.5rem;
 }
 
-nav .logo-name img {
+nav img {
     width: 20rem;
     /* height: 25rem; */
     /* margin-bottom: 2rem; */
 }
 
-nav .logo-name span {
+nav span {
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-h1);
 }
@@ -44,10 +44,9 @@ nav .logo-name span {
 /* ---Hamburger Section---*/
 .hamburger {
     display: none;
-    display: none;
     /* font-size: 2rem; */
     border: none;
-    background: white !important;
+    background: transparent !important;
     cursor: pointer;
 }
 
@@ -136,7 +135,7 @@ h1 {
     margin: 0 1.5rem;
 }
 
-.course-card ul li {
+.course-card li {
     padding: 1.3rem;
 }
 
@@ -158,7 +157,8 @@ h1 {
     margin: 1.5rem 0 5rem;
 }
 
-.course-info p #course-count, #course-credit{
+.course-info p #course-count,
+#course-credit {
     font-weight: var(--font-weight-bold);
     color: var(--lava);
     text-decoration: underline solid var(--lava);
