@@ -1,0 +1,65 @@
+:root {
+    /*=====primary color===== */
+    --deep-sea: #1c7cdb;
+    --sky-blue: #339af0;
+    --arctic: #d0cbff;
+
+    /*=====secondary color===== */
+    --velvet-night: #3a06a3ce;
+    --lavender: #9775fa;
+    --moonlight-iris: #e5dbff;
+
+    /*=====tertiary color===== */
+    --lava: #f76707;
+    --pumpkin: #ff922b;
+    --orange-grey: #faf0e8;
+    --dawn: #ebe5dd;
+
+    /*=====grey color===== */
+    --graphite: #212529;
+    --slate: #495057;
+    --pebble: #f1f3f5;
+    --white: #fff;
+
+    /* ----font-weight--- */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* -----font-size----- */
+    --font-size-h1: 6rem;
+    --font-size-h2: 4.8rem;
+    --font-size-h3: 4rem;
+    --font-size-h4: 3.2rem ;
+    --font-size-sm: 1.4rem;
+    --font-size-md: 1.6rem;
+    --font-size-lg: 2rem;
+
+    --line-height-tight: 1;
+    --line-height-normal: 1.5;
+    --tight-header-spacing: -2px;
+
+    --nav-height: 8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+     list-style: none;
+ }
+
+ ul li a{
+     text-decoration: none;
+ }
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-normal);
+}

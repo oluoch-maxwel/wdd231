@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/favicon.webp" href="images/favicon.webp">
+    <title>WDD 231 - Web Frontend Development I - OLUOCH OCHIENG</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development I">
+    <meta name="author" content="OLUOCH OCHIENG">
+    <link rel="stylesheet" href="styles/my-reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/small-screen.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo-name">
+                    <img src="images/gold-logo.webp" alt="logo">
+                    <span>Max Cyber & Branding Hub</span>
+                </div>
+
+                <!-- Hamburger button -->
+                <button class="hamburger" id="hamburger">☰</button>
+
+                <ul id="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Chamber</a></li>
+                    <li><a href="#">Final</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Home</h1>
+                <article class="student-info">
+                    <div class="card-student  about-me">
+                        <h2>About Me</h2>
+                        <p>My name is Maxwel, and I am from Kenya. I am passionate about learning, solving problems, and
+                            improving my skills, especially in technology and practical solutions for everyday life. I
+                            enjoy exploring new ideas, developing myself, and connecting with people who value knowledge
+                            and progress. My major is Software Development. I chose this field because I enjoy
+                            technology and I want to build skills that help me create solutions, grow professionally,
+                            and contribute to the digital world. My favorite food is ugali with vegetables and meat. For
+                            fun, I like learning new things about technology, practicing my typing skills, studying, and
+                            improving my knowledge. I am excited to learn from everyone, share ideas, and grow together.
+                        </p>
+                    </div>
+                    <div class="card-student  student-photo">
+                        <h2>Student Photo</h2>
+                        <div class="student-photo-frame">
+                            <img src="images/profile.webp" alt="Profile Photo">
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="course-info">
+                <h2>Web Certificate Courses</h2>
+                <div class="course course-card">
+                    <ul>
+                        <button id="all">All Courses</></button>
+                        <button id="cse">CSE Courses</></button>
+                        <button id="wdd">WDD Courses</></button>
+                    </ul>
+                </div>
+
+                <p>
+                    The total number of courses listed below is
+                    <span id="course-count"></span>
+                    
+                </p>
+
+                <div id="course-list" class="course-credit course-card">
+                    <!-- <ul>
+                        <li>WDD130</li>
+                        <li>WDD131</li>
+                        <li>WDD231</li>
+                        <li>CSE210</li>
+                        <li>CSE211</li>
+                        <li>CSE212</li>
+                    </ul> -->
+                </div>
+                 
+                <p id="course-credit"></p>
+
+            </section>
+            <div class="social-media">
+                <a href="https://github.com/oluoch-maxwel"><img src="images/github.webp" alt="Github"></a>
+                <a href="www.linkedin.com/in/oluoch-maxwel-5b5ba980"><img src="images/likein.webp" alt="LinkedIn"></a>
+                <a href="#"><img src="images/x.webp" alt="X"></a>
+                <a href="contact.html"><img src="images/email.webp" alt="Email"></a>
+            </div>
+        </main>
+
+        <footer>
+            <span id="currentyear"></span>
+            <span id="lastModified">Last Modification:</span>
+        </footer>
+    </div>
+</body>
+
+</html>
