@@ -1,0 +1,102 @@
+{
+    "siteplan": [
+        {
+            "siteName": {
+                "title": "Timbuktu Chamber of Commerce",
+                "description": "The name Timbuktu Chamber of Commerce clearly identifies the site as the central resource hub for businesses, patrons, and new residents in the city of Timbuktu and its surrounding areas."
+            },
+            "sitePurpose": "This website will serve as a resource hub for businesses in the city of Timbuktu. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.",
+            "targetMarket": "Business owners and patrons in the city of Timbuktu and surrounding areas.",
+            "siteGoals": [
+                "Improve member engagement by providing valuable resources and networking opportunities.",
+                "Attract new businesses and encourage economic development in the community.",
+                "Improve the visibility and reputation of the chamber as a trusted authority in local business matters."
+            ],
+            "userPersonas": [
+                {
+                    "name": "Maria",
+                    "role": "Small Business Owner",
+                    "age": 35,
+                    "description": "Maria is a 35-year-old entrepreneur who owns a small boutique shop in town. She is looking for networking opportunities, business resources, and marketing support to help grow her business."
+                },
+                {
+                    "name": "Diego",
+                    "role": "Corporate Executive",
+                    "age": 47,
+                    "description": "Diego is a 47-year-old executive at a large company looking for growth opportunities. His company is interested in partnership opportunities, economic development resources, and networking with other business leaders in the area."
+                },
+                {
+                    "name": "Francisco",
+                    "role": "The New Resident",
+                    "age": null,
+                    "description": "Francisco recently moved into the community and is looking to learn more about services available in the area. He is interested in finding business directories, event calendars, and community service opportunities."
+                }
+            ],
+            "scenarios": [
+                "A local business owner is interested in joining the chamber of commerce to network with other business owners. They visit the website to find information on membership benefits, fees, and how to apply.",
+                "A community member is looking for upcoming events and workshops hosted by the chamber. They visit the website to browse the events calendar and register for interesting activities.",
+                "A visitor from out of town is considering relocating to the area and wants to learn more about the local business environment. They explore the chamber's website for information on existing businesses, availability of skilled labor, and quality of life in the area."
+            ],
+            "seoPlan": [
+                "Use relevant keywords in site descriptions, content, and blog posts.",
+                "Verify the site on Google's Business Profile.",
+                "Get inbound links or backlinks from all member businesses to improve rankings.",
+                "Embed Google Analytics in all site pages."
+            ],
+            "designBrief": {
+                "colorSchema": [
+                    {
+                        "colorName": "Deep Blue",
+                        "hex": "#1C7CDB",
+                        "usage": "Header, Navigation, Headings, Primary Accent"
+                    },
+                    {
+                        "colorName": "Orange",
+                        "hex": "#F76707",
+                        "usage": "Call-to-Action Buttons, Icons, Highlights"
+                    },
+                    {
+                        "colorName": "White",
+                        "hex": "#FFFFFF",
+                        "usage": "Background & Container Fills"
+                    },
+                    {
+                        "colorName": "Graphite",
+                        "hex": "#212529",
+                        "usage": "Body Text & Footer Background"
+                    }
+                ],
+                "typography": [
+                    {
+                        "font": "Poppins",
+                        "usage": "Headings, Navigation, Titles"
+                    },
+                    {
+                        "font": "Open Sans",
+                        "usage": "Body Text, Forms, Directories, Lists"
+                    }
+                ]
+            },
+            "wireframes": {
+                "mobileView": [
+                    "LOGO",
+                    "MENU (HAMBURGER)",
+                    "HERO & WELCOME",
+                    "UPCOMING EVENTS",
+                    "MEMBER DIRECTORY HIGHLIGHTS",
+                    "JOIN THE CHAMBER (CTA)",
+                    "COMMUNITY NEWS & BLOG",
+                    "FOOTER"
+                ],
+                "desktopView": [
+                    "LOGO | HOME | ABOUT | DIRECTORY | EVENTS | JOIN",
+                    "HERO BANNER & SEARCH",
+                    "UPCOMING EVENTS & WORKSHOPS",
+                    "BUSINESS DIRECTORY & RESOURCES",
+                    "ECONOMIC DEVELOPMENT & ADVOCACY",
+                    "FOOTER"
+                ]
+            }
+        }
+    ]
+}
