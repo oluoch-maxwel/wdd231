@@ -1,3 +1,6 @@
+/* ================================
+   HEADER
+================================ */
 
 header {
     background-color: #1C7CDB;
@@ -22,7 +25,7 @@ header {
 
 .logo-title {
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 10px;
 }
 
@@ -35,15 +38,16 @@ header {
     cursor: pointer;
 }
 
-/* nav {
-    background-color: #212529;
-} */
+/* ================================
+   NAVIGATION
+================================ */
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 nav ul li {
     display: inline-block;
 }
@@ -68,16 +72,24 @@ nav a.active {
     background-color: #F76707;
 }
 
+/* ================================
+   MAIN
+================================ */
+
 main {
     width: 90%;
     max-width: 1100px;
     margin: 30px auto;
 }
 
-main h2 {
+main h1 {
     text-align: center;
     color: #1C7CDB;
 }
+
+/* ================================
+   VIEW BUTTONS
+================================ */
 
 .view-buttons {
     display: flex;
@@ -98,6 +110,10 @@ main h2 {
 .view-buttons button:hover {
     background-color: #F76707;
 }
+
+/* ================================
+   BUSINESS DIRECTORY
+================================ */
 
 .directory {
     display: grid;
@@ -123,13 +139,14 @@ main h2 {
 .list article img {
     display: none;
 }
-.directory article, .list article {
+
+.directory article,
+.list article {
     border: 1px solid #ddd;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     border-radius: 8px;
     background-color: #f8f9fa;
-    text-align: left;
 }
 
 .directory article img {
@@ -148,6 +165,10 @@ main h2 {
     font-weight: bold;
 }
 
+/* ================================
+   FOOTER
+================================ */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -161,9 +182,7 @@ footer {
 footer p {
     margin: 8px;
 }
-.footer-data{
+
+/* .footer-data {
     display: flex;
-    /* flex-direction: column; */
-}
-
-
+} */

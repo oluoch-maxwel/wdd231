@@ -1,90 +1,103 @@
+/* ================================
+   SITE PLAN
+================================ */
 
-main {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
-
-.siteplan-cont{
+.siteplan-cont {
     display: flex;
     flex-direction: column;
 }
-section {
+
+.siteplan-cont section {
     background: white;
     margin: 2rem 0;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-section h2 {
+.siteplan-cont section h2 {
     color: var(--blue);
     margin-bottom: 1rem;
     border-bottom: 3px solid var(--orange);
     display: inline-block;
-    padding-bottom: .3rem;
+    padding-bottom: 0.3rem;
 }
 
-ul {
+.siteplan-cont ul {
     padding-left: 2rem;
 }
+
+/* ================================
+   COLOR SCHEMA
+================================ */
 
 .colors {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
-
 }
 
-.color {
+.siteplan-cont .color {
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
     color: white;
 }
 
-.blue {
+.siteplan-cont .blue {
     background: #1C7CDB;
 }
 
-.orange {
+.siteplan-cont .orange {
     background: #F76707;
 }
 
-.white {
+.siteplan-cont .white {
     background: #ffffff;
     color: #212529;
     border: 2px solid #ddd;
 }
 
-.gray {
+.siteplan-cont .gray {
     background: #212529;
 }
 
-table {
+/* ================================
+   TYPOGRAPHY
+================================ */
+
+.siteplan-cont .poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.siteplan-cont .opensans {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* ================================
+   TABLE
+================================ */
+
+.siteplan-cont table {
     width: 100%;
     border-collapse: collapse;
 }
 
-th,
-td {
+.siteplan-cont th,
+.siteplan-cont td {
     border: 1px solid #ccc;
     padding: 12px;
 }
 
-th {
+.siteplan-cont th {
     background: #1C7CDB;
     color: white;
 }
 
-.poppins {
-    font-family: "Poppins", sans-serif;
-}
-
-.opensans {
-    font-family: "Open Sans", sans-serif;
-}
+/* ================================
+   WIREFRAMES
+================================ */
 
 .wireframes {
     display: grid;
@@ -92,20 +105,27 @@ th {
     gap: 6rem;
 }
 
-.wireframe-desktop, .wireframe-mobile {
+.wireframe-desktop,
+.wireframe-mobile {
     max-width: 90%;
     margin: 0 auto;
 }
-.wireframe-desktop img, .wireframe-mobile img {
+
+.wireframe-desktop img,
+.wireframe-mobile img {
+    display: block;
     max-width: 100%;
     margin: 0 auto;
     padding-top: 1rem;
 }
 
-pre {
+/* ================================
+   CODE / PRE
+================================ */
+
+.siteplan-cont pre {
     background: #f4f4f4;
     padding: 1rem;
     border-radius: 8px;
     overflow: auto;
 }
-

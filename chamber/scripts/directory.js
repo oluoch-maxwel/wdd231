@@ -3,7 +3,7 @@ const membersContainer = document.querySelector("#members");
 
 const getMembers = async () => {
     try {
-        const response = await fetch("members.json");
+        const response = await fetch("data/members.json");
 
         if (!response.ok) {
             throw new Error(`HTTP error, ${response.status}`);
