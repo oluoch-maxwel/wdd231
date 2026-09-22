@@ -64,4 +64,5 @@ body {
     line-height: var(--line-height-normal);
     color: #212529;
     background-color: #ffffff;
+    max-width: 1800px;
 }

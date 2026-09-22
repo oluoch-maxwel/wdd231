@@ -4,6 +4,7 @@
         "address": "Kitale Town, Trans Nzoia",
         "phone": "+254 700 111 111",
         "website": "https://example.com",
+        "image": "farmer-cop.webp",
         "membership": "Gold"
     },
     {
@@ -11,7 +12,7 @@
         "address": "Kenyatta Street, Kitale",
         "phone": "+254 700 222 222",
         "website": "https://example.com",
-        "image": "business-centre.jpg",
+        "image": "business-center.webp",
         "membership": "Silver"
     },
     {
@@ -19,7 +20,7 @@
         "address": "Moi Avenue, Kitale",
         "phone": "+254 700 333 333",
         "website": "https://example.com",
-        "image": "office-supplies.jpg",
+        "image": "office-supply.webp",
         "membership": "Bronze"
     },
     {
@@ -27,7 +28,7 @@
         "address": "Market Street, Kitale",
         "phone": "+254 700 444 444",
         "website": "https://example.com",
-        "image": "fresh-foods.jpg",
+        "image": "fresh-food.webp",
         "membership": "Silver"
     },
     {
@@ -35,7 +36,7 @@
         "address": "Kenyatta Street, Kitale",
         "phone": "+254 700 555 555",
         "website": "https://example.com",
-        "image": "hardware.jpg",
+        "image": "hardware.webp",
         "membership": "Gold"
     },
     {
@@ -43,7 +44,7 @@
         "address": "Milimani Road, Kitale",
         "phone": "+254 700 666 666",
         "website": "https://example.com",
-        "image": "digital-services.jpg",
+        "image": "digital-services.webp",
         "membership": "Bronze"
     },
     {
@@ -51,7 +52,7 @@
         "address": "Hospital Road, Kitale",
         "phone": "+254 700 777 777",
         "website": "https://example.com",
-        "image": "agrovet.jpg",
+        "image": "agrovet.webp",
         "membership": "Silver"
     }
 ]

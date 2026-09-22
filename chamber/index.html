@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="description"
+        content="Welcome to the Kitale Chamber of Commerce. Discover local businesses, community events, weather, and opportunities to connect with Kitale businesses.">
+
+    <meta property="og:title" content="Kitale Chamber of Commerce">
+
+    <meta property="og:description"
+        content="Connect with Kitale businesses, discover community events, and explore opportunities through the Kitale Chamber of Commerce.">
+
+    <meta property="og:image" content="https://oluoch-maxwel.github.io/wdd231/chamber/images/hero-img.webp">
+
+    <meta property="og:url" content="https://oluoch-maxwel.github.io/wdd231/chamber/index.html">
+
+    <title>Kitale Chamber of Commerce - Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/index.css">
+    
+    <!-- <link rel="stylesheet" href="styles/plan.css"> -->
+
+    <!-- JavaScript -->
+    <script src="scripts/home.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-title">
+            <section class="logo-section">
+                <a href="index.html"><img src="images/chamber-logo.webp" alt="Max Cyber Chamber of Commerce logo"></a>
+                <a class="kitale-title" href="index.html"><span class="kitale">MAX CYBER</span><span
+                        class="kitale-chamb">CHAMBER OF COMMERCE</span></a>
+            </section>
+
+            <!-- nav-section -->
+            <section class="nav-section">
+                <nav aria-label="Main navigation">
+                    <ul id="navigation">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
+                    </ul>
+
+
+                    <button id="theme-toggle" aria-label="Toggle-dark-mode">🤞</button>
+                    <button class="menu" id="menu" type="button" aria-label="Open navigation menu">☰</button>
+
+                </nav>
+            </section>
+        </div>
+        <!-- hero page section -->
+        <div class="hero">
+            <div class="img">
+                <img src="images/hero-img.webp" alt="Kitale business community">
+            </div>
+            <div class="hero-content">
+                <p class="welcome">Welcome to the</p>
+                <h1>Max Cyber Chamber of Commerce</h1>
+                <p>Connecting businesses and Strengthen <br> our community.</p>
+                <a href="join.html">Join the Chamber</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+        <div id="current-events">
+            <span>🗓️</span>
+            <span>Current Events</span>
+            <!-- <span>view all members</span> -->
+        </div>
+        <div class="date-weather">
+            <section class="current-event">
+                <div class="event-date">
+                    <span class="date">Sep <span id="date"><br>25</span><br> 2026</span>
+                </div>
+                <div class="event-details">
+                    <h3>Max Cyber Chamber Business Networking Breakfast</h3>
+                    <p>Connect with local entrepreneurs, share ideas, and explore potential partnerships.</p>
+                    <span class="direc"><span><img src="images/direction-img.webp" alt="Direction Image"></span>Kitale
+                        sport Club</span><span><img src="images/clock.webp" alt="Clock Image"> 7:30am - 10:00am</span>
+                </div>
+            </section>
+
+
+            <!-- <section class="weather">
+                <h2>Kitale Weather</h2>
+                <div id="weather-current">
+                    <p>Loading weather...</p>
+                </div>
+                 Direct grid container 
+                <div id="weather-forecast">
+                    <h3>3-Day Forecast</h3>
+                </div>
+            </section> -->
+
+            <section class="weather">
+                <h2>Kitale Weather</h2>
+                <div id="weather-current">
+                    <p>Loading weather...</p>
+                </div>
+                <div id="weather-forecast">
+                    <div id="forecast">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- Business Spotlights -->
+        <div id="business-spotlights">
+            <span>⭐</span>
+            <span>Business Spotlights</span>
+        </div>
+
+        <section class="spotlight-cards">
+            <div id="card"></div>
+        </section>
+
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-top-data">
+            <div class="contact">
+                <h3>Contacts</h3>
+                <article>
+                    <span><img src="images/direction-img.webp" alt="Direction Icon"></span>
+                    <p>Kitale Trans Nzoia County, Kenya</p>
+                </article>
+                <article>
+                    <span><img src="images/contact.webp" alt="Contact Icon"></span>
+                    <p>+254780596809</p>
+                </article>
+                <article>
+                    <span><img src="images/email.webp" alt="Email Icon"></span>
+                    <p>info@maxcyberchamber.co.ke</p>
+                </article>
+                <article>
+                    <span><img src="images/web.webp" alt="World web Icon"></span>
+                    <p>www.maxcyberchamber.co.ke</p>
+                </article>
+            </div>
+
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </div>
+
+            <div class="stay-connected">
+                <h3>Stay Connected</h3>
+                <ul>
+                    <li><a href="https://www.github.com/kitalechamber">
+                            <img src="images/github.webp" alt="GitHub"></a>
+                    </li>
+                    <li><a href="https://www.twitter.com/kitalechamber">
+                            <img src="images/x.webp" alt="Twitter"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/company/kitalechamber">
+                            <img src="images/likein.webp" alt="LinkedIn"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom-data">
+            <p>&copy; <span id="year"></span> Max Cyber Chamber of Commerce. All rights reserved.</p>
+            <p>Last Modification:<span id="lastModified"> </span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
