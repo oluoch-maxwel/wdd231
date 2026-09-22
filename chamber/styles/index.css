@@ -125,8 +125,9 @@ nav a.active {
     font-size: 3.5rem;
 }
 
-.hero-content h1 {
-    font-size: var(--font-size-h3);
+.hero-content span {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold)
 }
 
 .hero-content p {
