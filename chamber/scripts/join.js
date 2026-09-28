@@ -20,6 +20,7 @@ document.addEventListener("click", (event) => {
     }
 });
 
+
 // document.addEventListener("click", (event) => {
 //     if (event.target.classList.contains("modal-close")) {
 //         console.log("Close button clicked");
@@ -31,6 +32,15 @@ document.addEventListener("click", (event) => {
 //         modal.close();
 //     }
 // });
+
+
+
+// time-stamp
+const timestamp = document.querySelector("#timestamp");
+
+timestamp.value = new Date().toISOString();
+
+
 
 
 // Footer
