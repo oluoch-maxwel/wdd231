@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Welcome to the Kitale Chamber of Commerce. Discover local businesses, community events, weather, and opportunities to connect with Kitale businesses.">
+
+    <meta property="og:title" content="Kitale Chamber of Commerce">
+
+    <meta property="og:description"
+        content="Connect with Kitale businesses, discover community events, and explore opportunities through the Kitale Chamber of Commerce.">
+
+    <meta property="og:image" content="https://oluoch-maxwel.github.io/wdd231/chamber/images/hero-img.webp">
+
+    <meta property="og:url" content="https://oluoch-maxwel.github.io/wdd231/chamber/index.html">
+
+    <title>Kitale Chamber of Commerce - Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+    <!-- <link rel="stylesheet" href="styles/plan.css"> -->
+
+    <!-- JavaScript -->
+    <script src="scripts/join.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="logo-title">
+
+            <!-- Logo and brand name -->
+            <div class="logo-section">
+                <a href="index.html">
+                    <img src="images/chamber-logo.webp" alt="Max Cyber Chamber of Commerce logo">
+                </a>
+
+                <a class="kitale-title" href="index.html">
+                    <span class="kitale">MAX CYBER</span>
+                    <span class="kitale-chamb">
+                        CHAMBER OF COMMERCE
+                    </span>
+                </a>
+            </div>
+
+            <!-- Navigation -->
+            <div class="nav-section">
+                <nav aria-label="Main navigation">
+                    <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="join.html" class="active">Join</a></li>
+                    </ul>
+
+                    <button id="theme-toggle" aria-label="Toggle dark mode">🤞</button>
+                    <button class="menu" id="menu" type="button" aria-label="Open navigation menu">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="join-container">
+
+        <section class="join-intro">
+            <h1>Membership Application</h1>
+            <p>Join our organization by completing the membership application form below.</p>
+        </section>
+
+        <div class="join-layout">
+
+            <!-- APPLICATION FORM -->
+            <section class="application-section">
+
+                <form method="get" action="thankyou.html" id="membership-form">
+
+                    <fieldset class="applicant-bio">
+                        <legend>Applicant Information</legend>
+
+                        <!-- First Name -->
+                        <label for="first-name">
+                            First Name:
+                            <input type="text" id="first-name" name="first-name" title="Enter your first name"
+                                autocomplete="given-name" required>
+                        </label>
+
+                        <!-- Last Name -->
+                        <label for="last-name">
+                            Last Name:
+                            <input type="text" id="last-name" name="last-name" title="Enter your last name"
+                                autocomplete="family-name" required>
+                        </label>
+
+                        <!-- Organizational Title -->
+                        <label for="organization-title">
+                            Organizational Title:
+                            <input type="text" id="organization-title" name="organization-title"
+                                title="Enter your organizational title. Minimum 7 characters."
+                                autocomplete="organization-title" pattern="[A-Za-z][A-Za-z -]{6,}">
+                        </label>
+
+                        <!-- Email -->
+                        <label for="email">
+                            Email Address:
+                            <input type="email" id="email" name="email" title="Enter a valid email address"
+                                autocomplete="email" required>
+                        </label>
+
+                        <!-- Mobile Number -->
+                        <label for="mobile">
+                            Mobile Number:
+                            <input type="tel" id="mobile" name="mobile" title="Enter your mobile number"
+                                autocomplete="tel" required>
+                        </label>
+
+                        <!-- Business Name -->
+                        <label for="business-name">
+                            Business / Organization Name:
+                            <input type="text" id="business-name" name="business-name"
+                                title="Enter your business or organization name" autocomplete="organization" required>
+                        </label>
+                    </fieldset>
+
+                    <!-- Membership Level -->
+                    <fieldset class="membership-selection">
+
+                        <legend>Membership Level</legend>
+
+                        <label for="np">
+                            <input type="radio" id="np" name="membership" value="np" required>
+                            NP Membership (No Fee)
+                        </label>
+
+                        <label for="bronze">
+                            <input type="radio" id="bronze" name="membership" value="bronze">
+                            Bronze Membership
+                        </label>
+
+                        <label for="silver">
+                            <input type="radio" id="silver" name="membership" value="silver">
+                            Silver Membership
+                        </label>
+
+                        <label for="gold">
+                            <input type="radio" id="gold" name="membership" value="gold">
+                            Gold Membership
+                        </label>
+
+                    </fieldset>
+
+                    <!-- Business Description -->
+                    <label for="description">
+                        Business / Organization Description:
+                        <textarea id="description" name="description" title="Describe your business or organization"
+                            rows="6"></textarea>
+                    </label>
+
+                    <!-- Timestamp -->
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <!-- Submit Button -->
+                    <input type="submit" value="Submit Application">
+
+                </form>
+
+            </section>
+
+            <!-- MEMBERSHIP CARDS -->
+            <aside class="membership-cards">
+
+                <!-- NP CARD -->
+                <article class="membership-card np-card">
+                    <h3>NP Membership</h3>
+                    <p>For non-profit organizations.</p>
+                    <p>Fee: Free</p>
+
+                    <button type="button" class="modal-open" data-modal="np-modal">
+                        More Information
+                    </button>
+                </article>
+
+                <!-- BRONZE CARD -->
+                <article class="membership-card bronze-card">
+                    <h3>Bronze Membership</h3>
+                    <p>Basic benefits for growing organizations.</p>
+                    <p>Fee: KSh 1,000</p>
+
+                    <button type="button" class="modal-open" data-modal="bronze-modal">
+                        More Information
+                    </button>
+                </article>
+
+                <!-- SILVER CARD -->
+                <article class="membership-card silver-card">
+                    <h3>Silver Membership</h3>
+                    <p>Additional visibility and training benefits.</p>
+                    <p>Fee: KSh 2,500</p>
+
+                    <button type="button" class="modal-open" data-modal="silver-modal">
+                        More Information
+                    </button>
+                </article>
+
+                <!-- GOLD CARD -->
+                <article class="membership-card gold-card">
+                    <h3>Gold Membership</h3>
+                    <p>Enhanced business promotion and benefits.</p>
+                    <p>Fee: KSh 5,000</p>
+
+                    <button type="button" class="modal-open" data-modal="gold-modal">
+                        More Information
+                    </button>
+                </article>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <!-- NP MODAL -->
+    <dialog id="np-modal" class="membership-modal">
+        <h2>NP Membership Benefits</h2>
+
+        <ul>
+            <li>No membership fee.</li>
+            <li>Access to selected networking events.</li>
+            <li>Non-profit organization recognition.</li>
+            <li>Access to community activities.</li>
+        </ul>
+
+        <button type="button" class="modal-close">
+            Close
+        </button>
+    </dialog>
+
+    <!-- BRONZE MODAL -->
+    <dialog id="bronze-modal" class="membership-modal">
+        <h2>Bronze Membership Benefits</h2>
+
+        <ul>
+            <li>Access to selected networking events.</li>
+            <li>Basic training opportunities.</li>
+            <li>Member directory listing.</li>
+            <li>Selected event discounts.</li>
+        </ul>
+
+        <button type="button" class="modal-close">
+            Close
+        </button>
+    </dialog>
+
+    <!-- SILVER MODAL -->
+    <dialog id="silver-modal" class="membership-modal">
+        <h2>Silver Membership Benefits</h2>
+
+        <ul>
+            <li>All Bronze membership benefits.</li>
+            <li>Additional training opportunities.</li>
+            <li>Business promotion opportunities.</li>
+            <li>Discounted selected events.</li>
+            <li>Enhanced member visibility.</li>
+        </ul>
+
+        <button type="button" class="modal-close">
+            Close
+        </button>
+    </dialog>
+
+    <!-- GOLD MODAL -->
+    <dialog id="gold-modal" class="membership-modal">
+        <h2>Gold Membership Benefits</h2>
+
+        <ul>
+            <li>All Silver membership benefits.</li>
+            <li>Priority advertising opportunities.</li>
+            <li>Special event participation.</li>
+            <li>Featured business spotlight opportunities.</li>
+            <li>Additional networking and training benefits.</li>
+        </ul>
+
+        <button type="button" class="modal-close">
+            Close
+        </button>
+    </dialog>
+
+
+    <footer>
+        <div class="footer-bottom-data">
+            <p>&copy; <span id="year"></span> Max Cyber Chamber of Commerce. All rights reserved.</p>
+            <p>Last Modification:<span id="lastModified"> </span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

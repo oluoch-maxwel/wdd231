@@ -214,7 +214,7 @@ async function loadWeather() {
 }
 
 
-// Load weather
+// Load weather 
 loadWeather();
 
 

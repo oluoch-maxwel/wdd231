@@ -140,6 +140,14 @@ function displayCourses(courseList) {
     });
 
     container.appendChild(ul);
+
+    li.addEventListener('click', () => {
+        li.showModal();
+    });
+
+    li.addEventListener('click', () => {
+        li.close();
+    });
 }
 
 
