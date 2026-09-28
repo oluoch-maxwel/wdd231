@@ -91,7 +91,7 @@
 
             <!-- APPLICATION FORM -->
             <section class="application-section">
-
+                  <h2>Than you</h2>
                 <form method="get" action="thankyou.html" id="membership-form">
 
                     <fieldset class="applicant-bio">
@@ -122,7 +122,7 @@
                         <!-- Email -->
                         <label for="email">
                             Email Address:
-                            <input type="email" id="email" name="email" title="Enter a valid email address"
+                            <input type="email" id="email" placeholder="olumax0@gmail.com" name="email" title="Enter a valid email address"
                                 autocomplete="email" required>
                         </label>
 
@@ -137,7 +137,7 @@
                         <label for="business-name">
                             Business / Organization Name:
                             <input type="text" id="business-name" name="business-name"
-                                title="Enter your business or organization name" autocomplete="organization" required>
+                                title="Enter your business or organization name" autocomplete="organization" pattern="[A-Za-z][A-Za-z -]{6,}" required>
                         </label>
                     </fieldset>
 
@@ -174,9 +174,6 @@
                         <textarea id="description" name="description" title="Describe your business or organization"
                             rows="6"></textarea>
                     </label>
-
-                    <!-- Timestamp -->
-                    <input type="hidden" id="timestamp" name="timestamp">
 
                     <!-- Submit Button -->
                     <input type="submit" value="Submit Application">
