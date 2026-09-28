@@ -16,7 +16,7 @@
 .join-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .join-intro h2 {
@@ -32,11 +32,11 @@
    JOIN LAYOUT
 ========================= */
 
-.join-layout {
+/* .join-layout {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-}
+} */
 
 
 /* =========================
