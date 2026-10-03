@@ -1,0 +1,66 @@
+[
+    {
+        "image": "images/kitale-museum.webp",
+        "alt": "Kitale Museum",
+        "name": "Kitale Museum",
+        "address": "Kwanza–Kapenguria Road, Kitale",
+        "description": "Learn more about the rich history, culture, and natural heritage of the region.",
+        "link": "https://museums.or.ke/kitale-museum/"
+    },
+    {
+        "image": "images/saiwa-swamp.webp",
+        "alt": "Saiwa Swamp National Park",
+        "name": "Saiwa Swamp",
+        "address": "Saiwa, about 22 km from Kitale",
+        "description": "A unique wetland ecosystem home to diverse flora and fauna.",
+        "link": "https://www.kws.go.ke/parks/saiwa-swamp-national-park"
+    },
+    {
+        "image": "images/kitale-nature-conservancy.webp",
+        "alt": "Kitale Nature Conservancy",
+        "name": "Nature Conservancy",
+        "address": "Ndura, Kitale",
+        "description": "A peaceful retreat for nature lovers and outdoor enthusiasts.",
+        "link": "#"
+    },
+    {
+        "image": "images/kitale-club.webp",
+        "alt": "Kitale Golf Club",
+        "name": "Golf Club",
+        "address": "Golf Course Road",
+        "description": "Enjoy a round of golf in a scenic setting with well-maintained greens and fairways.",
+        "link": "#"
+    },
+    {
+        "image": "images/kitale-showground.webp",
+        "alt": "Kitale Showground",
+        "name": "Kitale Showground",
+        "address": "Eldoret–Kitale Highway, Lodwar Junction",
+        "description": "Hosts major events, exhibitions, and festivals throughout the year.",
+        "link": "#"
+    },
+    {
+        "image": "images/cherangany-hills.webp",
+        "alt": "Cherangany Hills landscape",
+        "name": "Cherangany Hills",
+        "address": "Cherangany Hills, Trans Nzoia region",
+        "description": "A scenic mountain range with hiking trails, fresh air and stunning views.",
+        "link": "#"
+    },
+    {
+        "image": "images/moun-elgon.webp",
+        "alt": "Mount Elgon landscape",
+        "name": "Mount Elgon National Park",
+        "address": "Endebess area, near Kitale",
+        "description": "Explore the majestic Mount Elgon, with caves, waterfalls, and hiking trails.",
+        "link": "https://www.kws.go.ke/parks/mount-elgon-national-park"
+    },
+    {
+        "image": "images/kitale-town.webp",
+        "alt": "Kitale town and business area",
+        "name": "Kitale Town",
+        "address": "Kitale Central Business District",
+        "description": "A vibrant commercial hub serving the surrounding communities with various businesses, markets, and services.",
+        "link": "#"
+    }
+]
