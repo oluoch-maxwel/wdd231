@@ -102,7 +102,7 @@ article a {
 article img {
     width: 300px;
     height: 150px;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
     display: block;
 }
@@ -160,13 +160,17 @@ nav ul.open {
     .menu {
         display: none;
     }
-    .discover-intro, .discover-intro a{
+
+    .discover-intro,
+    .discover-intro a {
         width: 100%;
         text-align: center;
     }
-    .discover-hero-image img{
+
+    .discover-hero-image img {
         height: auto;
     }
+
     nav ul {
         display: flex;
         flex-direction: row;
