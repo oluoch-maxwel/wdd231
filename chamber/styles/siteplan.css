@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap');
+
+
+/* ------------------------------
+   General Styles
+--------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #263238;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* ------------------------------
+   Header
+--------------------------------*/
+
+header {
+    background-color: #1B5E20;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+
+/* ------------------------------
+   Sections
+--------------------------------*/
+
+section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #F4E3C1;
+    border-radius: 10px;
+}
+
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1B5E20;
+}
+
+h2 {
+    border-bottom: 2px solid #1B5E20;
+    padding-bottom: 0.5rem;
+}
+
+
+/* ------------------------------
+   Scenarios
+--------------------------------*/
+
+.scenario {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #1B5E20;
+    border-radius: 5px;
+}
+
+
+/* ------------------------------
+   Color Schema
+--------------------------------*/
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.color-card {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.color-box {
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.forest {
+    background-color: #1B5E20;
+}
+
+.sand {
+    background-color: #F4E3C1;
+}
+
+.white {
+    background-color: #FFFFFF;
+    border: 1px solid #263238;
+}
+
+.charcoal {
+    background-color: #263238;
+}
+
+
+/* ------------------------------
+   Typography
+--------------------------------*/
+
+.font-example {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/* ------------------------------
+   Wireframes
+--------------------------------*/
+
+.wireframe {
+    background-color: #ffffff;
+    border: 2px solid #263238;
+    padding: 1rem;
+    margin: 1rem auto 2rem;
+    text-align: center;
+}
+
+.mobile-wireframe {
+    max-width: 380px;
+}
+
+.desktop-wireframe {
+    max-width: 900px;
+}
+
+.wire-header {
+    background-color: #1B5E20;
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wire-hero {
+    min-height: 180px;
+    background-color: #F4E3C1;
+    margin: 1rem 0;
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.wire-hero strong {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+}
+
+button {
+    background-color: #1B5E20;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.wire-section {
+    border: 1px solid #263238;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.wire-card {
+    background-color: #F4E3C1;
+    border: 1px dashed #263238;
+    padding: 1.5rem 0.5rem;
+    margin: 1rem 0;
+}
+
+.desktop-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.desktop-cards .wire-card {
+    margin: 1rem 0;
+}
+
+.wire-buttons {
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #1B5E20;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.wire-footer {
+    background-color: #263238;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+
+/* ------------------------------
+   Footer
+--------------------------------*/
+
+footer {
+    background-color: #263238;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+/* ------------------------------
+   Responsive Design
+--------------------------------*/
+
+@media (max-width: 700px) {
+
+    main {
+        width: 94%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .colors {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .desktop-cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .colors {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile-wireframe {
+        width: 100%;
+    }
+
+}

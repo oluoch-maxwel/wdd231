@@ -222,9 +222,9 @@ btnWdd.addEventListener("click", () => {
 });
 
 
-// ===============================
-// INITIAL DISPLAY
-// ===============================
+// ============= INITIAL DISPLAY==================
+
+
 
 displayCourses(courses);
 courseCount.textContent = courses.length;
