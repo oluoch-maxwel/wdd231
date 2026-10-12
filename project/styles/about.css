@@ -1,0 +1,67 @@
+/* ===== Main====  */
+
+/* ---- Hero Section--- */
+
+.hero-image {
+    height: 40rem;
+    overflow: hidden;
+}
+
+
+.hero-info {
+    top: .5%;
+    right: 10%;
+    transform: translateX(70%);
+    line-height: .9;
+    width: 65rem;
+}
+
+.hero-info h1{
+    line-height: .8;
+    font-family: cursive;
+}
+
+
+.hero-info .places {
+    line-height: 1;
+    font-size: 2.5rem;
+}
+
+.hero-info {
+    color: #2c2cbb;
+    max-width: 75rem;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    max-width: 90vw;
+    margin: 4rem auto;
+}
+
+.about-info h2, p{
+    text-align: left;
+}
+
+.about-info p{
+    font-size: 2rem;
+}
+
+.about-info h2{
+    font-size: 3.5rem;
+    font-family: 'Permanent Marker', cursive;
+    color: var(--dark-green);
+}
+
+.about-info img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.about-info article {
+    flex: 1;
+}

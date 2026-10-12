@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Travel Kenya | About </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalized.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/trip.css">
+
+    <!-- <link rel="stylesheet" href="styles/plan.css"> -->
+
+    <!-- JavaScript -->
+    <!-- <script src="scripts/index.js" defer></script> -->
+    <script src="scripts/destination.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="title">
+                <a href="index.html" class="brand">
+                    <img src="images/logo.webp" alt="Student Travel Kenya logo">
+                    <span>
+                        <strong>Student Travel Kenya</strong>
+                        <small>Explore • Learn • Grow</small>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Hamburger button -->
+            <button class="menu" id="menu-button" type="button" aria-label="Open navigation menu"
+                aria-controls="menu-list" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul id="menu-list" class="menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="destination.html" aria-current="page">
+                        Destinations
+                    </a>
+                </li>
+                <li><a href="trip.html" class="active">Plan Your Trip</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <div class="hero-image">
+                <img src="images/trip.webp" alt="Hero image">
+            </div>
+            <div class="hero-info">
+                <h1>Plan Your Trip</h1>
+                <p>Tell us your travell preferences and will help you will help you create the perfect student adventure
+                </p>
+            </div>
+        </section>
+        <section class="trip">
+            <h2>Trip Planning Form</h2>
+            <div class="application-section">
+                <form method="get" action="thankyou.html" id="membership-form">
+
+                    <!-- Left Column -->
+                    <div class="form-leftcolumn">
+
+                        <label for="full-name">Full Name *</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Your name" required>
+
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                        <label for="destination-type">Preferred Destination Type *</label>
+                        <select id="destination-type" name="destination-type" required>
+                            <option value="">Select a type</option>
+                            <option value="beach">Beach</option>
+                            <option value="wildlife">Wildlife</option>
+                            <option value="hiking">Hiking and Nature</option>
+                            <option value="culture">Culture and History</option>
+                        </select>
+
+                        <label for="county">Preferred County *</label>
+                        <select id="county" name="county" required>
+                            <option value="">Select a county</option>
+                            <option value="trans-nzoia">Trans Nzoia</option>
+                            <option value="nakuru">Nakuru</option>
+                            <option value="mombasa">Mombasa</option>
+                            <option value="kilifi">Kilifi</option>
+                            <option value="kisumu">Kisumu</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="travelers">Number of Travelers *</label>
+                        <select id="travelers" name="travelers" required>
+                            <option value="">Select number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3-5">3–5</option>
+                            <option value="6+">6 or more</option>
+                        </select>
+
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="form-right-column">
+
+                        <label for="budget">Budget Range (KSh) *</label>
+                        <select id="budget" name="budget" required>
+                            <option value="">Select budget</option>
+                            <option value="under-1000">Under KSh 1,000</option>
+                            <option value="1000-3000">KSh 1,000–3,000</option>
+                            <option value="3000-5000">KSh 3,000–5,000</option>
+                            <option value="5000-10000">KSh 5,000–10,000</option>
+                            <option value="over-10000">Over KSh 10,000</option>
+                        </select>
+
+                        <fieldset class="activities">
+                            <legend>Preferred Activities</legend>
+
+                            <label>
+                                <input type="checkbox" name="activities" value="Hiking">
+                                Hiking
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="activities" value="Beach">
+                                Beach
+                            </label>
+
+
+                            <label>
+                                <input type="checkbox" name="activities" value="Wildlife">
+                                Wildlife
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="activities" value="Culture and History">
+                                Culture &amp; History
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="activities" value="Photography">
+                                Photography
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="activities" value="Other">
+                                Other
+                            </label>
+                        </fieldset>
+
+                        <label for="travel-month">Preferred Travel Month *</label>
+                        <select id="travel-month" name="travel-month" required>
+                            <option value="">Select month</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+
+                        <input type="hidden" id="timestamp" name="timestamp">
+
+                        <button type="submit" class="submit-trip">
+                            ✈ Submit Trip Plan
+                        </button>
+
+                    </div>
+                </form>
+                <div class="why-plan-withus">
+                    <h3>👍</h3>
+                    <div class="why-us"><span>✔️</span>Get personalized recommendations</div>
+                    <div class="why-us"><span>✔️</span>Stay within your budget</div>
+                    <div class="why-us"><span>✔️</span>Discover hidden gems</div>
+                    <div class="why-us"><span>✔️</span>Make the most of your student expirience</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="top-footer">
+            <a href="index.html" class="brand">
+
+                <img src="images/logo.webp" alt="Student Travel Kenya logo">
+                <span>
+                    <strong>Student Travel Kenya</strong>
+                    <small>Explore • Learn • Grow</small>
+                </span>
+            </a>
+
+            <article>
+                <h3>Quick Links</h3>
+                <div class="links-socialmedia">
+                    <div class="quick-links">
+                        <a href="index.html">Home</a>
+                        <a href="destination.html">Destinations</a>
+                        <a href="about.html">About</a>
+                    </div>
+
+                    <div class="social-media-icon">
+
+                        <!-- YouTube -->
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z" />
+                            </svg>
+                        </a>
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.7 2.4 4.1 1.7.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.5 0-1.2.4-2.2 1.2-3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.1 1.2a10.8 10.8 0 0 1 5.7 0c2.2-1.5 3.1-1.2 3.1-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3 0 4.2-2.6 5.2-5.1 5.5.4.3.8 1 .8 2v3c0 .3.2.7.8.6A11.1 11.1 0 0 0 12 .9Z" />
+                            </svg>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:your-email@example.com" aria-label="Email">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z" />
+                            </svg>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M20.4 3H3.6A.6.6 0 0 0 3 3.6v16.8a.6.6 0 0 0 .6.6h16.8a.6.6 0 0 0 .6-.6V3.6a.6.6 0 0 0-.6-.6ZM8.3 18H5.4V9h2.9v9ZM6.8 7.8a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4ZM18.6 18h-2.9v-4.4c0-1.1 0-2.5-1.5-2.5s-1.7 1.2-1.7 2.4V18H9.6V9h2.8v1.2h.1a3.1 3.1 0 0 1 2.8-1.5c3 0 3.5 2 3.5 4.5V18Z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="footer-bottom-data">
+                    <h3>Quick Links</h3>
+                    <p>&copy; <span id="year"></span> Student Travel Kenya. All rights reserved.</p>
+                    <p>Last Modification:<span id="lastModified"> </span></p>
+                </div>
+            </article>
+
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Student Travel Kenya trip plan has been submitted successfully.">
+    <meta name="author" content="Student Travel Kenya">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/thankyou.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/thankyou.js" defer></script>
+
+    <title>Thank You! | Student Travel Kenya</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="index.html" class="brand">
+            <img src="images/logo.webp" alt="Student Travel Kenya logo">
+            <span>
+                <strong>Student Travel Kenya</strong>
+                <small>Explore • Learn • Grow</small>
+            </span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="trip.html">Plan Your Trip</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="success-page">
+        <section class="success-card">
+            <div class="success-icon" aria-label="Success" role="img">✓</div>
+
+            <h1>Thank You!</h1>
+
+            <p class="success-message">
+                Your trip plan has been submitted successfully.
+            </p>
+
+            <p class="details-intro">
+                Here are the details you provided:
+            </p>
+
+            <dl class="trip-details">
+                <dt>Name:</dt>
+                <dd id="display-name">Not provided</dd>
+
+                <dt>Email:</dt>
+                <dd id="display-email">Not provided</dd>
+
+                <dt>Destination Type:</dt>
+                <dd id="display-type">Not provided</dd>
+
+                <dt>County:</dt>
+                <dd id="display-county">Not provided</dd>
+
+                <dt>Budget Range:</dt>
+                <dd id="display-budget">Not provided</dd>
+
+                <dt>Travelers:</dt>
+                <dd id="display-travelers">Not provided</dd>
+
+                <dt>Activities:</dt>
+                <dd id="display-activities">Not provided</dd>
+
+                <dt>Travel Month:</dt>
+                <dd id="display-month">Not provided</dd>
+            </dl>
+
+            <a href="destination.html" class="explore-button">
+                Explore More Destinations <span aria-hidden="true">➜</span>
+            </a>
+
+            <p class="closing-message">
+                We can't wait to see where your next adventure takes you!
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a href="index.html" class="footer-brand">
+            <img src="images/logo.webp" alt="">
+            <span>
+                <strong>Student Travel Kenya</strong>
+                <small>Explore • Learn • Grow</small>
+            </span>
+        </a>
+
+        <nav aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="trip.html">Plan Your Trip</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <p>&copy; <span id="year"></span> Student Travel Kenya</p>
+    </footer>
+
+    <script src="scripts/thankyou.js"></script>
+</body>
+</html>
