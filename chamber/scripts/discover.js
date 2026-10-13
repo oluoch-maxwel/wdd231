@@ -3,13 +3,13 @@ const discovergrid = document.querySelector("#discover-grid");
 
 async function getDiscoverPlaces() {
     try {
-        
+
         const response = await fetch("data/discoveries.json");
 
         if (!response.ok) {
             throw new Error("Could not load file from dicoveries.json");
         }
-         
+
         const data = await response.json();
         // console.log(data)
         displayDiscoverPlaces(data);
@@ -25,7 +25,7 @@ function displayDiscoverPlaces(places) {
     places.forEach((place) => {
         console.log(place.image)
         const card = document.createElement("article");
-        
+
         card.innerHTML = `
            <img src="${place.image}" alt="${place.alt}" loading="lazy">
 
@@ -43,7 +43,7 @@ function displayDiscoverPlaces(places) {
 
         discovergrid.appendChild(card);
 
-     })
+    })
 }
 getDiscoverPlaces();
 
