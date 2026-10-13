@@ -29,7 +29,7 @@ function displayDestinations(destinationsToDisplay) {
         exploreCard.classList.add('explore-card');
 
         exploreCard.innerHTML = `
-            <img src="${destination.image}" alt="${destination.name}">
+            <img src="${destination.image}" alt="${destination.alt}">
             <div class=card-info>
                 <h3>${destination.name}</h3>
                 <p><strong>Activities:</strong> ${destination.activities.join(', ')}</p>
