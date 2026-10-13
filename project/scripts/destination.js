@@ -51,33 +51,43 @@ const beachDestinationBtn = document.querySelector('.btn-beach');
 const cultureDestinationBtn = document.querySelector('.btn-culture');
 // const adventureDestinationBtn = document.querySelector('.btn-adventure');
 
-allDestinationBtn.addEventListener('click', () => {
-    displayDestinations(destinations);
-});
 
+if (allDestinationBtn) {
+    allDestinationBtn.addEventListener('click', () => {
+        displayDestinations(destinations);
+    });
+};
+
+if(natureDestinationBtn){
 natureDestinationBtn.addEventListener('click', () => {
     displayDestinations(
         destinations.filter(destination => destination.type === 'nature')
     );
 });
+};
 
-wildlifeDestinationBtn.addEventListener('click', () => {
-    displayDestinations(
-        destinations.filter(destination => destination.type === 'wildlife')
-    );
-});
+if (wildlifeDestinationBtn) {
+    wildlifeDestinationBtn.addEventListener('click', () => {
+        displayDestinations(
+            destinations.filter(destination => destination.type === 'wildlife')
+        );
+    });
+};
 
-beachDestinationBtn.addEventListener('click', () => {
-    displayDestinations(
-        destinations.filter(destination => destination.type === 'beach')
-    );
-});
-
-cultureDestinationBtn.addEventListener('click', () => {
-    displayDestinations(
-        destinations.filter(destination => destination.type === 'culture')
-    );
-});
+if (beachDestinationBtn) {
+    beachDestinationBtn.addEventListener('click', () => {
+        displayDestinations(
+            destinations.filter(destination => destination.type === 'beach')
+        );
+    });
+}
+if (cultureDestinationBtn) {
+    cultureDestinationBtn.addEventListener('click', () => {
+        displayDestinations(
+            destinations.filter(destination => destination.type === 'culture')
+        );
+    });
+}
 
 // adventureDestinationBtn.addEventListener('click', () => {
 //     displayDestinations(
